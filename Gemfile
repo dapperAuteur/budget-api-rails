@@ -32,6 +32,9 @@ gem 'devise_token_auth'
 gem 'omniauth'
 gem 'active_model_serializers', '~> 0.10.0'
 
+# add totp 2fa two factor authentication
+gem 'active_model_otp'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
