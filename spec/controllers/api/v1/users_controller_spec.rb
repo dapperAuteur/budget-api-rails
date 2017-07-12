@@ -13,6 +13,10 @@ describe Api::V1::UsersController do
     it 'responds with 200 status code' do
       expect(response.code).to eq('200')
     end
+
+    it 'returns the serialized user attributes' do
+      expect(JSON.parse(response.body)['data']['attributes']).to eq({"name"=>"aweful brown", "email"=>"aweful@aweful.com"})
+    end
   end
 
   describe "GET #index" do
