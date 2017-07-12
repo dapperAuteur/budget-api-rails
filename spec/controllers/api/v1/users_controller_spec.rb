@@ -6,7 +6,8 @@ describe Api::V1::UsersController do
       @user = FactoryGirl.create :user
       auth_headers = @user.create_new_auth_token
       request.headers.merge!(auth_headers)
-      get :show, id: @user.id
+      # get :show, id: @user.id
+      get :show, params: { id: @user.id }
     end
 
     it 'responds with 200 status code' do
