@@ -26,7 +26,8 @@ gem 'rake', '< 11'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
-
+# Use Rack Attack for black/white listing, rate limiting, throttling
+gem 'rack-attack'
 # use Devise Token Auth for token based authentication
 gem 'devise_token_auth'
 gem 'omniauth'

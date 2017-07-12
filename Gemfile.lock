@@ -115,6 +115,8 @@ GEM
       pry (>= 0.9.11)
     puma (3.9.1)
     rack (2.0.3)
+    rack-attack (5.0.1)
+      rack
     rack-cors (0.4.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -205,6 +207,7 @@ DEPENDENCIES
   pry-rails
   pry-stack_explorer
   puma (~> 3.7)
+  rack-attack
   rack-cors
   rails (~> 5.1.1)
   rake (< 11)

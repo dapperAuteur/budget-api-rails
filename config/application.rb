@@ -41,5 +41,8 @@ module BudgetApi
           :methods => [:get, :post, :options, :delete, :put]
       end
     end
+
+    config.middleware.use Rack::Attack
+    
   end
 end
