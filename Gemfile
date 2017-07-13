@@ -29,6 +29,12 @@ gem 'rack-cors'
 # Use Rack Attack for black/white listing, rate limiting, throttling
 gem 'rack-attack'
 # use Devise Token Auth for token based authentication
+# Use Redis for Cacheing
+gem 'redis-rails'
+
+# Use Sidekiq for background job processing
+gem 'sidekiq'
+
 gem 'devise_token_auth'
 gem 'omniauth'
 gem 'active_model_serializers', '~> 0.10.0'
