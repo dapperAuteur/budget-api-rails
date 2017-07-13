@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Securing Redis: https://redis.io/topics/quickstart
+This still needs to be done
